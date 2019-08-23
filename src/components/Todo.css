@@ -1,7 +1,13 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
 .Todo {
     color: #fa8231;
     text-transform: uppercase;
     cursor: grabbing;
     padding: 10px 20px;
     background-color: #d1d8e0;
+    width: fit-content;
 }
